@@ -1,0 +1,19 @@
+{
+  "name": "graph-ql-initial",
+  "version": "1.0.0",
+  "description": "test description",
+  "main": "index.js",
+  "dependencies": {
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "best"
+  ],
+  "author": "abdul hameed",
+  "license": "ISC"
+}
