@@ -15,7 +15,9 @@ module.exports = function(app, db) {
     })
 
     app.get('/notes/:id', (req, res) => {
+
         const id = req.params.id;
+        console.log('am comming', id)
         const details = { '_id': new ObjectID(id) };
         db.collection('notes').findOne(details, (err, item) => {
             if (err) {
